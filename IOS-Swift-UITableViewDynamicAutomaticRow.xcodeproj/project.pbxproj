@@ -12,6 +12,7 @@
 		FA928A932147DF65006A5A02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA928A912147DF65006A5A02 /* Main.storyboard */; };
 		FA928A952147DF69006A5A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA928A942147DF69006A5A02 /* Assets.xcassets */; };
 		FA928A982147DF69006A5A02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA928A962147DF69006A5A02 /* LaunchScreen.storyboard */; };
+		FA928AA02147E29C006A5A02 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA928A9F2147E29C006A5A02 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA928A942147DF69006A5A02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA928A972147DF69006A5A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA928A992147DF69006A5A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA928A9F2147E29C006A5A02 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FA928A8D2147DF65006A5A02 /* AppDelegate.swift */,
 				FA928A8F2147DF65006A5A02 /* ViewController.swift */,
+				FA928A9F2147E29C006A5A02 /* TableViewCell.swift */,
 				FA928A912147DF65006A5A02 /* Main.storyboard */,
 				FA928A942147DF69006A5A02 /* Assets.xcassets */,
 				FA928A962147DF69006A5A02 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA928AA02147E29C006A5A02 /* TableViewCell.swift in Sources */,
 				FA928A902147DF65006A5A02 /* ViewController.swift in Sources */,
 				FA928A8E2147DF65006A5A02 /* AppDelegate.swift in Sources */,
 			);
